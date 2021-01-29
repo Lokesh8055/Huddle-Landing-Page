@@ -1,0 +1,19 @@
+.box {
+	background-color: $color-white;
+	border-radius: 1.5rem;
+	box-shadow: $box-shadow;
+	margin: 4rem 0;
+    padding: 6rem;
+    
+    & img {
+        width: 80%;
+    }
+}
+
+
+.small-box {
+	display: inline-block;
+	position: relative;
+	margin-bottom: -50%;
+	z-index: 1;
+}

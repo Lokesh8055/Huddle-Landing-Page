@@ -1,0 +1,27 @@
+%btn-shared {
+    border-radius: 5rem;
+    border: none;
+    box-shadow: $box-shadow;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: $bold;
+    padding: 1.5rem 6rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.4rem;
+        padding: 1rem 3rem;
+    }
+}
+
+.btn {
+    &-primary {
+        @extend %btn-shared;
+        background-color: $color-pink;
+        color: $color-white;
+    }
+
+    &-secondary {
+        @extend %btn-shared;
+        background-color: $color-white;
+    }
+}

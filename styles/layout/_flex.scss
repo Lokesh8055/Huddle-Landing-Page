@@ -1,0 +1,31 @@
+.flex {
+	@include flex;
+
+	& > div,
+	& > ul {
+		flex: 1;
+	}
+}
+
+.align-start {
+	align-items: flex-start;
+}
+
+footer .social-media {
+	@include flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+	nav.flex {
+		flex-direction: row;
+	}
+
+	.flex {
+		flex-direction: column;
+	}
+
+	.box-reverse-mobile {
+		flex-direction: column-reverse;
+	}
+}

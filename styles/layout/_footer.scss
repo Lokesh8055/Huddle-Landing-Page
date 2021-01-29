@@ -1,0 +1,38 @@
+footer {
+    background-color: $color-dark-cyan;
+    color: $color-white;
+    padding: 18rem 0 6rem;
+
+    & ul li {
+        margin-bottom: 2rem;
+    }
+
+    & .circle {
+        border: 1px solid $color-white;
+        border-radius: 50%;
+        color: $color-white;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1rem;
+        height: 4rem;
+        width: 4rem;
+    }
+
+    & p {
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        & ul {
+            padding: 0;
+            width: 100%;
+        }
+
+        & p {
+            text-align: center;
+        }
+    }
+}

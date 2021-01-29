@@ -1,0 +1,33 @@
+h1,
+h2 {
+	font-family: $Poppins;
+}
+
+.container {
+	padding: 0 2rem;
+	margin: 0 auto;
+	max-width: 100%;
+	width: 100rem;
+}
+
+p {
+	opacity: 0.6;
+}
+
+img {
+	max-width: 100%;
+}
+
+.center {
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+li,
+a,
+button {
+	text-decoration: none;
+}
